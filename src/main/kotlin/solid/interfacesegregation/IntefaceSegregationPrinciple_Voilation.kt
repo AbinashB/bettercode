@@ -8,7 +8,7 @@ fun main() {
     val penguin =Penguin()
     val duck =Duck()
     flyAble(eagle)
-    flyAble(penguin) // Bad Practise we
+    flyAble(penguin) // Bad Practise program doesn't have output
     swimAble(penguin)
 }
 

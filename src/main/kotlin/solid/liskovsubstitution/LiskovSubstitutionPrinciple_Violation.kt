@@ -9,14 +9,14 @@ fun main() {
     val penguin = Penguin ()
     makeFly(eagle)
     makeFly(duck)
-   // makeFly(penguin)
+    makeFly(penguin)
 
 }
 fun makeFly (bird: Bird){
     bird.fly()
 }
 
-open class Bird{
+open class Bird{ //base class Bird which has atribute to fly and walk
     open fun fly(){
         println("Bird fly")
     }
